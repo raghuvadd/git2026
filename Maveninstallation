@@ -1,0 +1,15 @@
+$ sudo apt update && sudo apt upgrade -y
+$ sudo apt install openjdk-17-jdk -y
+$ java -version
+$ cd /opt/
+$ wget https://dlcdn.apache.org/maven/maven-3/3.9.14/binaries/apache-maven-3.9.14-bin.tar.gz
+$ sudo tar -xvzf apache-maven-3.9.14-bin.tar.gz
+$ sudo mv apache-maven-3.9.14 maven
+$ sudo nano /etc/profile.d/maven.sh (Open one editor file and paste the below lines)
+     export M2_HOME=/opt/maven
+     export PATH=${M2_HOME}/bin:${PATH} 
+     (to save above lines ctrl+x-->y-->enter)
+$ source /etc/profile.d/maven.sh
+$ mvn -version
+ 
+
