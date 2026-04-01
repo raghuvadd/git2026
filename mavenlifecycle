@@ -1,0 +1,15 @@
+MAVEN LIFE CYCLE
+================
+
+Validate Phase: Checks the project configuration to ensure all necessary information is present and valid.
+Compile Phase: Compiles the source code of the project.
+Test Phase: Runs unit tests using a testing framework to ensure the code works as expected.
+Package Phase: Packages the compiled code into a JAR, WAR, or other artifact format.
+Verify Phase: Performs additional checks on the packaged code to ensure it is valid.
+Install Phase: Installs the packaged artifact into the local repository for use as a dependency in other projects.
+Deploy Phase: Deploys the packaged artifact to a remote repository for sharing with other developers or teams
+
+
+
+
+
